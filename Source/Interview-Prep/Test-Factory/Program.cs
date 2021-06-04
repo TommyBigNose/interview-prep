@@ -13,7 +13,7 @@ namespace Test_Factory
 
 			string input = Console.ReadLine();
 
-			// How would you use the Factory Pattern at this point?
+			// How can you refactor this to utilize the Factory Pattern?
 			ICreditCard creditCard = new MoneyBackCreditCard();
 			Console.WriteLine($"Card Type: {creditCard.GetCardType()}");
 			Console.WriteLine($"Credit Limit: {creditCard.GetCreditLimit()}");
